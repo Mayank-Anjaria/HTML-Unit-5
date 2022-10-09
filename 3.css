@@ -1,0 +1,22 @@
+.box 
+{
+	height: 100px;
+	width: 100px;
+	background: blue;
+	animation: colorChange 4s ease infinite;
+}
+@keyframes colorChange
+{
+33.3%
+{
+	background: red;
+}
+66.6%
+{
+	background: green;
+}
+99.9%
+{
+	background: blue;
+}
+}

@@ -1,0 +1,25 @@
+.box 
+{
+	height: 100px;
+	width: 100px;
+	margin: 20px 100px;
+	background: red;
+	animation: animate1 4s ease infinite;
+}
+@keyframes animate1
+{
+25%
+{
+	background: green;
+}
+50%
+{
+	rotate: 90deg;
+	background: blue;
+}
+75%
+{
+	rotate: 0deg;
+	background: orange;
+}
+}

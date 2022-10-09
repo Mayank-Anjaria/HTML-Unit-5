@@ -1,0 +1,33 @@
+.loading
+{
+	margin-top: 50px;
+	margin-left: 725px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	animation: gls 4s ease infinite;
+
+}
+.bar
+{
+	background-color: blue;
+	margin-left:575px;
+	width: 10px;
+	height: 6px;
+	border-radius: 3px;
+	animation: loading 4s ease infinite;
+}
+
+@keyframes loading{
+	100% {width: 400px;}
+
+}
+@keyframes gls {
+	25% {color: green;
+	}
+	50% {color: blue;
+	}
+	75% {color: red;
+	}
+}
+}
