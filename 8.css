@@ -43,6 +43,8 @@ span
 	font-size: 50px;
 	display: block;
 	font-family: Times New Roman;
+	background-color:green;
+	color:blue;
 }
 .GLS-container
 {
